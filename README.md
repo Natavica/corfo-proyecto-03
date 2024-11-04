@@ -13,6 +13,7 @@ Se definen dos flujos de trabajo:
 2. **Flujo de entrega:**
    - Este inicia con el archivo `index.html`, diseñado específicamente para cumplir con los requisitos de la presente entrega. En este flujo, las páginas HTML se adaptaron al sistema de diseño de **Bootstrap 5.3.3** para aprovechar su estructura de componentes y layout.
 
+```bash
 /corfo-proyecto-03
 │
 ├── /assets/
@@ -39,7 +40,7 @@ Se definen dos flujos de trabajo:
 ├── equipo_ref.html         # Referencia de proyecto anterior con SASS
 └── contacto_ref.html       # PReferencia de proyecto anterior con SASS
 
-
+```
 
 
 ### Descripción de Carpetas y Archivos
