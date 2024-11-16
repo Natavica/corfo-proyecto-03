@@ -1,24 +1,28 @@
-# corfo-proyecto-03
-# Objetivo de la Entrega
+# corfo-proyecto-02
 
-El objetivo de esta entrega es **integrar Bootstrap** en un proyecto previamente desarrollado.
+### Descripción del Proyecto
+*Este proyecto es un sitio web informativo para una clínica médica. El propósito principal es brindar información clara y accesible sobre los servicios médicos, el equipo médico y los detalles de contacto de la clínica. Está desarrollado utilizando HTML, CSS y JavaScript para proporcionar una experiencia fluida y amigable para los usuarios. Es la segunda versión con mejoras como estilos modularizados con SASS modularizado
+s con SASS y se aplica BEM*
 
-## Flujos de Trabajo
+---
 
-Se definen dos flujos de trabajo:
+### Cómo visualizar el proyecto en un navegador
+*Clona o descarga este repositorio en tu máquina local.
+Navega hasta el directorio del proyecto.
+Abre el archivo index.html directamente en un navegador web. Puedes hacerlo de las siguientes maneras:
+Haciendo doble clic sobre el archivo index.html.
+Arrastrando y soltando el archivo en una ventana de tu navegador.
+Abriendo el archivo desde la opción "Abrir archivo" en el menú de tu navegador.
+El sitio web se renderizará en el navegador, donde podrás navegar por las diferentes vistas (Home, Equipo Médico, Contacto).*
 
-1. **Flujo de referencia:**
-   - Este comienza con el archivo `index_ref.html`, donde los estilos se generaron con **SASS** y contienen modificaciones realizadas anteriormente en el proyecto.
-  
-2. **Flujo de entrega:**
-   - Este inicia con el archivo `index.html`, diseñado específicamente para cumplir con los requisitos de la presente entrega. En este flujo, las páginas HTML se adaptaron al sistema de diseño de **Bootstrap 5.3.3** para aprovechar su estructura de componentes y layout.
+---
 
+### Estructura de Carpetas y Archivos
 ```bash
-/corfo-proyecto-03
+
+/corfo-proyecto-01
 │
 ├── /assets/
-│   ├── /css/
-│       └── styles.css *Estilos del proyecto que complementan Bootstrap
 │   ├── /scss/
 │       └── main.scss 
 │       └── main.css.map
@@ -35,26 +39,10 @@ Se definen dos flujos de trabajo:
 ├── index.html              # Página principal (Home)
 ├── equipo.html             # Página del equipo médico
 └── contacto.html           # Página de contacto
-*
-├── inde_ref.html           # Referencia de proyecto anterior con SASS
-├── equipo_ref.html         # Referencia de proyecto anterior con SASS
-└── contacto_ref.html       # PReferencia de proyecto anterior con SASS
 
 ```
 
-
-### Descripción de Carpetas y Archivos
-
-- **`flujo_referencia/`**: Contiene `index_ref.html`, el archivo de referencia con los estilos en SASS.
-- **`flujo_entrega/`**: Incluye `index.html`, ajustado para cumplir con los requisitos de Bootstrap 5.3.3.
-- **`assets/`**: Carpeta común que contiene los recursos del proyecto:
-  - **`css/`**: Archivos CSS generados.
-  - **`images/`**: Carpeta para las imágenes del proyecto.
-  - **`js/`**: JavaScript de la versión que no tiene Bootstrao.
-  - **`scss/`**: Archivos fuente de SASS.
-    - **`components/`**: Contiene componentes individuales como `_footer.scss`, `_header.scss`, y `_variables.scss`.
-    - **`main.scss`**: Archivo principal de SASS.
-    - **`main.scss.map`**: Mapa de fuente para `main.scss`.
+---
 
 
 
@@ -62,3 +50,12 @@ Se definen dos flujos de trabajo:
 
 
 
+### Explicación de Vistas
+
+*El sitio tiene 3 vistas principales y un botón para simular la reserva.*
+
+| Vista | | Descipción |
+|--------------|--------------|--------------|
+| Home     | (index.html)    | *Esta es la página de inicio del sitio web. Presenta una descripción general de los servicios de la clínica, información sobre su misión y visión, y enlaces a otras secciones como el equipo médico y la página de contacto.*|
+| Equipo       | (equipo.html)    | *En esta página se presenta una lista del equipo médico que trabaja en la clínica. Cada médico tiene una breve descripción de su especialidad, experiencia y una foto. Los usuarios pueden conocer más sobre los profesionales que estarán a cargo de su cuidado.* |
+| Contacto       | (contacto.html)   | *La página de contacto ofrece información sobre cómo llegar a la clínica, incluye un formulario para que los usuarios puedan enviar consultas o agendar una cita, y los detalles de contacto como dirección, teléfono y correo electrónico.* |
