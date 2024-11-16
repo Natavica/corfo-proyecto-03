@@ -9,3 +9,6 @@ document.querySelectorAll('.navbar__links a').forEach(link => {
         navLinks.classList.remove("active"); 
     });
 });
+
+
+console.log('probando')
